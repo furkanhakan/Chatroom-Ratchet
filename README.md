@@ -24,6 +24,8 @@ Start the local web server and go to the project directory and run the following
 ```sh
 $ php bin/server.php
 ```
+:warning: **Don't forget to enter your own database information by opening the db / DbConnect.php file.**
+
 Then you can use the project by entering ```localhost/Chatroom-Ratchet-master``` in your web browser.
 
 ## Author
