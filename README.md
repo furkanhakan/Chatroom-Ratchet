@@ -24,7 +24,7 @@ Start the local web server and go to the project directory and run the following
 ```sh
 $ php bin/server.php
 ```
-Then you can use the project by entering ```localhost:8080``` in your web browser.
+Then you can use the project by entering ```localhost/Chatroom-Ratchet-master``` in your web browser.
 
 ## Author
 👤 **Furkan Hakan**
