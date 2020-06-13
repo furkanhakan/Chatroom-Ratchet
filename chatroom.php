@@ -7,7 +7,7 @@
 	<meta name="robots" content="noindex">
 	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
 	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
-	<link rel='stylesheet prefetch' href='css/chatroom.css'>
+	<link rel='stylesheet prefetch' href='assets/css/chatroom.css'>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
 		<div id="sidepanel">
 			<div id="profile">
 				<div class="wrap">
-					<img id="profile-img" src="images/user-picture.png" class="online" alt="" />
+					<img id="profile-img" src="assets/images/user-picture.png" class="online" alt="" />
 					<?php
 					foreach ($_SESSION['user'] as $key => $user) {
 						$userId = $key;
@@ -58,7 +58,7 @@
 							echo "<li class='contact'>
 							<div class='wrap'>
 								<span id={$user['id']} class='contact-status online'></span>
-								<img src='images/user-picture.png'  />
+								<img src='assets/images/user-picture.png'  />
 								<div class='meta'>
 									<p class='name'>{$user['name']}</p>
 									<p class='preview {$user['id']}'>{$last_login}</p>
@@ -78,7 +78,7 @@
 		</div>
 		<div class="content">
 			<div class="contact-profile">
-				<img src="images/team.png" alt="" />
+				<img src="assets/images/team.png" alt="" />
 				<p>Chat Room</p>
 				<div class="social-media">
 					<i class="fa fa-facebook" aria-hidden="true"></i>
